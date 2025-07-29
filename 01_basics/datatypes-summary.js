@@ -28,3 +28,25 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber);
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let mYYoutubename = "mr.technocrat"
+
+let anothername = mYYoutubename
+anothername = "chaitanyauthale"
+console.log(anothername);
+
+let user = {
+    email : "chaitanya@technocrats.com",
+    upi : "chaitanya@bob"
+}
+
+let userTwo = userOne
+
+userTwo.email = "chaitanya@google.com"
+
+console.log(userTwo.email);
